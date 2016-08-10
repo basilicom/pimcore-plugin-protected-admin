@@ -1,0 +1,20 @@
+{
+  "name": "basilicom-pimcore-plugin/protected-admin",
+  "type": "pimcore-plugin",
+  "license": "BSD-3-Clause",
+  "description": "A Pimcore plugin that requires a basic auth challenge prior to granting access to the admin backend.",
+  "keywords": ["pimcore", "plugin", "admin", "administration", "password", "authentication"],
+  "homepage": "http://basilicom.de/en/pimcore",
+  "authors": [
+    {
+      "name": "basilicom Team",
+      "email": "info@basilicom.de",
+      "homepage": "http://basilicom.de/en/pimcore",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "pimcore/installer-plugin": ">=1",
+    "php": ">=5.6.0"
+  }
+}
